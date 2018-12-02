@@ -1,0 +1,10 @@
+{
+  "name": "docker-networking",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "fastify": "^1.13.1",
+    "got": "^9.3.2"
+  }
+}
