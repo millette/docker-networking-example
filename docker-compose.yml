@@ -8,6 +8,7 @@ services:
      - node
      - internal
 
+    # Port will only be visible within docker
     ports:
      - 3000
 
@@ -19,5 +20,6 @@ services:
      - node
      - external
 
+    # Port 80 is visible publicly
     ports:
      - 80:3000
